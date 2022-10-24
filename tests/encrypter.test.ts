@@ -1,6 +1,6 @@
 import { Encrypter } from "../src/encrypter";
 
-describe("encrypter", () => {
+describe("encrypter engine", () => {
   let encrypter: Encrypter;
   const fixtures = [
     [""],
