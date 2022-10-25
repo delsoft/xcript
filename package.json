@@ -6,7 +6,7 @@
   "main": "./lib/cjs/index.js",
   "scripts": {
     "test": "jest",
-    "jest-w": "jest --watchAll",
+    "test:watch": "jest --watchAll",
     "clean": "rm -rf ./lib",
     "build": "npm run clean && npm run build:esm && npm run build:cjs",
     "build:esm": "tsc -p ./configs/tsconfig.esm.json && mv lib/esm/index.js lib/esm/index.mjs",
